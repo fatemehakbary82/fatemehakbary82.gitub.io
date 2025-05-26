@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal site</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; /* افزودن این خط */
+        }
+
+        section h2 {
+            color: #6a11cb;
+        }
+
+        .data-time {
+            position: absolute;
+            top:10px;
+            right:20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;  
+            right: 20px; 
+            width: 100px; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 20px;
+        }
+
+        #contact {
+            background-color: #ffeb3b; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #6a11cb;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                display: block;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>In the name of God</h1>
+    <nav>
+        <a href="#welcome">Welcome to my personal site.</a>
+        <a href="#about">About me</a>
+        <a href="#panda">My favorite animal</a>
+        <a href="#linda">Myself</a>
+        <a href="#food">My favorite food</a>
+        <a href="#contact">Contact us</a>
+    </nav>
+</header>
+
+<div class="date-time" id="date-time"></div>
+
+<section id="welcome">
+    <h2>To Fatemeh Akbary's website</h2>
+    <p>Subject to the laws of the Islamic Republic of Iran</p>
+</section>
+
+<section id="about">
+    <h2>About me</h2>
+    <img src="logo.png" alt="آرم دانشگاه محقق اردبیلی" class="logo">
+    <div class="flex-container">
+        <p>I am Fatemeh Akbary. I am a computer engineering student at the University of Mohaghegh Ardabili, entering 1400.</p>
+    </div>
+</section>
+
+<section id="panda">
+    <h2>I love pandas.<a href="https://fa.wikipedia.org/wiki/پاندا" target="_blank">panda</a></h2>
+    <div class="flex-container">
+        <img src="pa.jpg" alt="عکس پاندا">
+        <p>I love pandas.</p>
+    </div>
+</section>
+
+<section id="linda">
+    <h2>fatemeh akbary</h2>
+    <div class="flex-container">
+        <img src="lin.jpg" alt="Fatima's photo">
+        <p>I was born in Tehran and I am 21 years old.</p>
+    </div>
+</section>
+
+<section id="food">
+    <h2>List of my favorite foods</h2>
+    <table>
+        <tr>
+            <th>food</th>
+        </tr>
+        <tr>
+            <td>Lasagna</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+        </tr>
+        <tr>
+            <td>Fried chicken</td>
+        </tr>
+        <tr>
+            <td>Fried mushrooms</td>
+        </tr>
+        <tr>
+            <td>Green lentil</td>
+        </tr>
+    </table>
+</section>
+<section id="contact">
+    <h2>Contact me</h2>
+    <p>Contact me via email: <a href="mailto:fatemehakbary06@gmail.com">fatemehakbary06@gmail.com</a></p>
+</section>
+
+<footer>
+    <p>All rights reserved.&copy; 2025</p>
+</footer>
+
+</body>
+</html>
